@@ -1,0 +1,159 @@
+
+
+header {
+  width :100%;
+  height: 70px;
+  position: fixed;
+  z-index :1;
+}
+
+header .social-header-icons a i {
+  font-size: 150%;
+  color: white;
+  padding: 0.6rem;
+  border-radius :50%;
+  text-align: center;
+}
+
+header .social-header-icons a:hover i {
+  color :#28a745;
+}
+
+.header-bg {
+  background-color: black !important;
+}
+
+nav {
+  position :fixed;
+  height :100vh;
+  right :0;
+  top :0;
+  background-color :rgba(0 ,0 ,0 ,.4);
+  padding :25px 25px;
+  display :none;
+  z-index: 2;
+}
+
+nav.open {
+  display: block;
+  animation-name :open-nav;
+  animation-duration: 3s;
+}
+
+@keyframes open-nav {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  background :transparent;
+  border :2px solid #0bb432;
+  width :100%;
+  text-align :center;
+  font-size :30px;
+  margin: 20px 0;
+}
+
+nav ul li i {
+  color: green;
+}
+
+nav ul li a {
+  color :white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color :#096e21;
+  text-decoration: none;
+}
+
+#intro {
+  width :100%;
+  height: 100vh;
+  background :linear-gradient(rgba(0 ,0 ,0 ,0.5) ,rgba(0 ,0 ,0 ,0.5)) ,url("../img/img (1).jpg");
+  background-size: cover;
+}
+
+#intro .row {
+  height :100vh;
+}
+
+#about .abt-img {
+  height: 100vh;
+  background :linear-gradient(rgba(0 ,0 ,0 ,0.5) ,rgba(0 ,0 ,0 ,0.5)) ,url("../img/img (5).jpg");
+  background-size: cover;
+}
+
+#about .abt-text {
+  height: 100vh;
+}
+
+#contact .contact-details ul li {
+  font-size: 130%;
+}
+
+#contact .contact-details ul li i{
+  font-size: 150%;
+}
+
+#contact .contact-details ul li a{
+  color: white;
+}
+
+#contact .links ul {
+  list-style-type: none;
+}
+
+#contact .links ul li {
+  font-size :1.5rem;
+}
+
+#contact .links ul li i {
+  color: green;
+}
+
+#contact .links ul li a {
+  color :white;
+  text-decoration: none;
+}
+
+#contact .links ul li a:hover {
+  color :#096e21;
+  text-decoration: none;
+}
+
+#contact .social-footer-icons a  i{
+  background :white;
+  color: #343a40;
+  padding: 0.7rem;
+  border-radius :50%;
+  text-align: center;
+}
+
+#contact .social-footer-icons a:hover i {
+  color: #28a745;
+}
+
+footer small {
+  font-size: 90% !important;
+}
